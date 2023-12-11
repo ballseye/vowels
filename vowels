@@ -1,0 +1,7 @@
+def check_vowels(word):
+    vowels = "aeiou"
+    for char in word:
+        if char.lower() in vowels:
+            print(f"{char} is a vowel")
+        else:
+            print(f"{char} is not a vowel")
